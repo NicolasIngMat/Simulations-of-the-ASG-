@@ -1,11 +1,36 @@
+# Simulations of the ASG
 
-# Simulacion del  "Ancient Selection Graph".
+Este repositorio contiene simulaciones computacionales del modelo **Ancestral Selection Graph (ASG)** desarrolladas en el contexto de una tesis de pregrado en matemática.
 
+## 📌 Descripción
 
+El objetivo de este código es simular la dinámica del proceso \( M_t^{(N)} \), incorporando eventos de:
 
+- Coalescencia
+- Bifurcación
 
-## Manual de Ejecución
+El modelo permite explorar el comportamiento del sistema bajo distintos parámetros, y sirve como apoyo empírico a los resultados teóricos obtenidos en la tesis.
 
-Si se desea ejecutar las Simulaciones sin entrar en detalle se debe ejecutar las librerias y la seccion PRELIMINARES.
+## ⚙️ Requisitos
 
-Si se desea revisar el codigo realizado entonces revise la sección Preliminares.
+- Python 3.x
+- Numpy
+- Matplotlib
+
+Opcional:
+- Google Colab (recomendado para ejecución rápida)
+
+## ▶️ Cómo usar
+
+### Opción 1: Google Colab
+
+1. Abrir Google Colab
+2. Subir el notebook `Simulacion_ASG.ipynb`
+3. Ejecutar las celdas
+
+### Opción 2: Local
+
+1. Clonar el repositorio:
+
+```bash
+git clone https://github.com/NicolasIngMat/Simulations-of-the-ASG-.git
